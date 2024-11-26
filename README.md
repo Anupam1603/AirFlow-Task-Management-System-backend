@@ -1,25 +1,17 @@
 # AirFlow Task Management System
 
-This is the **AirFlow Task Management System** where users can manage their tasks with various operations like adding, editing, deleting, sorting, and filtering tasks based on priority.
+## Overview
 
-### Objective
-
-The objective of this system is to allow users to perform CRUD operations (Create, Read, Update, Delete) on tasks. It includes endpoints to:
-1. Add a new task
-2. View all tasks
-3. Sort tasks by priority
-4. Edit task priority and text
-5. Delete a task
-6. Filter tasks by priority
+The **AirFlow Task Management System** is a backend solution designed for managing tasks with functionalities such as adding, editing, deleting, filtering, and sorting tasks based on priority. Built using **Node.js** and **Express**, it provides RESTful APIs for seamless task operations. This project uses an in-memory array structure for task storage, ensuring efficient and dynamic data handling.
 
 ---
 
-### Data Structure
+## Features
 
-The task data is represented as an array of objects where each object contains the following properties:
-```javascript
-let tasks = [
-  { taskId: 1, text: 'Fix bug #101', priority: 2 },
-  { taskId: 2, text: 'Implement feature #202', priority: 1 },
-  { taskId: 3, text: 'Write documentation', priority: 3 }
-];
+- **Add Tasks:** Add new tasks with unique IDs, descriptions, and priorities.
+- **Edit Tasks:** Update task text or modify task priority dynamically.
+- **Delete Tasks:** Remove tasks from the task list based on their ID.
+- **View Tasks:** Retrieve the complete list of tasks or filter tasks based on priority.
+- **Sort Tasks:** Organize tasks by priority in ascending order.
+
+---
